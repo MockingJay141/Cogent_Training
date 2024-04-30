@@ -14,7 +14,7 @@ public interface DBLogic {
 What is interface?
 It is a way of implementing abstraction, interface will always have abstract method by default
 
-abstract method -- it is type of method which will not have any body/implementation, they only have declaration.
+abstract method -- it is type of method which will not have anybody/implementation, they only have declaration.
 
 Interface cannot be instantiated hence they cannot have constructor.
 
