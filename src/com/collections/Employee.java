@@ -1,5 +1,7 @@
 package com.collections;
 
+import java.util.Objects;
+
 public class Employee {
 
     private Integer id;
@@ -17,6 +19,38 @@ public class Employee {
         this.address = address;
     }
 
+    /**
+     * This method is overridden from object class to ensure that objects with same hash values return true when equals()
+     * method is called.
+     * @param o
+     * @return
+     */
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee)) return false;
+        Employee employee = (Employee) o;
+        return salary == employee.salary && id.equals(employee.id) && name.equals(employee.name) && address.equals(employee.address);
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                ", address='" + address + '\'' +
+                '}';
+    }
+
+    /**
+     * This method is overridden from the object class to make sure same objects have same hash value.
+     * @return
+     */
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, salary, address);
+    }
 
     public Integer getId() {
         return id;

@@ -16,6 +16,11 @@ import java.util.*;
  * 3. We can add heterogeneous elements
  * 4. ArrayList is not synchronized/ not thread safe
  * 5. Duplicate elements are allowed in ArrayList.
+ *
+ * ArrayList implements RandomAccess Interface hence we can access any element with same speed without having to iterate
+ * over the complete list.
+ * Hence, ArrayList is best to use when we have frequent retrieval operations.
+ * ArrayList is not recommended if we have frequent addition and deletion operations.
  */
 public class ArrayListDemo {
 

@@ -56,6 +56,7 @@ public class LinkedListDemo {
         System.out.println("==========================================");
 
         // Using an Iterator to iterate through the list.
+        // Iterator is present in Collection interface and can be used by all the child interfaces of Collection
         Iterator itr = linkedList.iterator();
 
         while(itr.hasNext()) {
@@ -64,6 +65,8 @@ public class LinkedListDemo {
         System.out.println(linkedList);
 
         System.out.println("==========================================");
+
+        // ListIterator is only present in List Interface and can only be used by List Interface
         ListIterator listIterator = linkedList.listIterator();
 
         while (listIterator.hasNext()){
