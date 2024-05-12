@@ -16,6 +16,9 @@ public class OptionalDemo {
         Optional empty = Optional.empty();
         Optional<String> value = Optional.ofNullable("Blake");
 
+        //Optional Class has a method get() that we will use when we only want value inserted in the Reference variable.
+        System.out.println(value.get());
+
         String name = value.filter(x -> x.equals("Blake")).orElse("Name is not matching or Name is null");
         System.out.println(name);
 
