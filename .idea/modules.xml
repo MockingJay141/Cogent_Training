@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ReactiveExamples/ReactiveExamples.iml" filepath="$PROJECT_DIR$/ReactiveExamples/ReactiveExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring.iml" filepath="$PROJECT_DIR$/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringLifeCycle.iml" filepath="$PROJECT_DIR$/SpringLifeCycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week_1.iml" filepath="$PROJECT_DIR$/Week_1.iml" />
     </modules>
   </component>
