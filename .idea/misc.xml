@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ReactiveExamples/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringJDBCExample/pom.xml" />
+        <option value="$USER_HOME$/Desktop/SpringJDBCTemplateExample/pom.xml" />
       </list>
     </option>
   </component>

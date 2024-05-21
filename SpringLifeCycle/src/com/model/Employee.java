@@ -6,6 +6,7 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 // This is the annotation that is used to mark the class so that component-scan can create instance of this class
+// Component is also called stereotype annotation. stereotype is package.
 @Component
 public class Employee {
     private Integer id;

@@ -6,7 +6,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:annotation-config></context:annotation-config>
+    <context:annotation-config/>
 
     <!--Changing the scope of the Bean allows us to create multiple instances of the same class.
      This is the way to make work not as a Singleton Pattern-->
@@ -28,8 +28,8 @@
 <!--        <property name="salary" value="5000"> </property>-->
 <!--    </bean>-->
 
-    <!--When we have multiple model classes its not possible to create a bean tag each and every one of them
-     Instead of the we have a XML annotation to create instances of every model class
+    <!--When we have multiple model classes it's not possible to create a bean tag each and every one of them
+     Instead of the have a XML annotation to create instances of every model class
      The tag show below will create the instance of every class present under the package mentioned in
      Base-Package -->
     <context:component-scan base-package="com.model"/>

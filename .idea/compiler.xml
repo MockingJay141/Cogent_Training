@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringJDBCExample" />
+        <module name="JdbcTemplate" />
         <module name="ReactiveExamples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JdbcTemplate" target="11" />
       <module name="ReactiveExamples" target="17" />
+      <module name="SpringJDBCExample" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
