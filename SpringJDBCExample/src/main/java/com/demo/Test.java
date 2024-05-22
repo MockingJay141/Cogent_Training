@@ -6,7 +6,6 @@ import com.demo.spring.dao.PersonDAO;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.Iterator;
-import java.util.ListIterator;
 
 public class Test {
 
