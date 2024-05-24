@@ -5,8 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/ReactiveExamples/pom.xml" />
         <option value="$PROJECT_DIR$/SpringJDBCExample/pom.xml" />
-        <option value="$USER_HOME$/Desktop/SpringJDBCTemplateExample/pom.xml" />
         <option value="$PROJECT_DIR$/HibernateExample/pom.xml" />
+        <option value="$PROJECT_DIR$/Banking/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,6 +3,7 @@ package test;
 import beans.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
@@ -17,6 +18,7 @@ public class SelectMultipleRows {
 
         SessionFactory sessionFactory = cfg.buildSessionFactory();
         Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
 
         String hql = "FROM Employee";
 
@@ -30,6 +32,31 @@ public class SelectMultipleRows {
             System.out.println("Salary: " + ns1.getSalary());
             System.out.println("==========================================");
         }
+
+
+        String hql1 = "FROM Employee WHERE id = 101";
+        Query q1 = session.createQuery(hql1);
+        Employee employee = (Employee) q1.uniqueResult();
+        System.out.println("Id: " + employee.getId());
+        System.out.println("Name: " + employee.getName());
+        System.out.println("Email: " + employee.getEmail());
+        System.out.println("Salary: " + employee.getSalary());
+        System.out.println("==========================================");
+
+        String hql2 = "DELETE FROM Employee WHERE id = 101";
+        Query q2 = session.createQuery(hql2);
+        int i = q2.executeUpdate();
+        System.out.println("Employee Deleted: " + i);
+        transaction.commit();
+        System.out.println("==========================================");
+
+        String hql3 = "UPDATE Employee SET name = 'OmkarKulkarni', email = 'omkar@gmail.com' WHERE id = 102";
+        Query q3 = session.createQuery(hql3);
+        int i2 = q3.executeUpdate();
+        System.out.println("Employee Updated: " + i2);
+        transaction.commit();
+        System.out.println("==========================================");
+
 
         session.close();
         sessionFactory.close();

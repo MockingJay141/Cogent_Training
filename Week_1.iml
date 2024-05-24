@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/SpringLifeCycle/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BankingApplication/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BankingApplication/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -107,5 +109,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="Maven: org.springframework.boot:spring-boot:3.1.11" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.1.11" level="project" />
   </component>
 </module>

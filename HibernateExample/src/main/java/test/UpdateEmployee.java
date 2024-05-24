@@ -19,9 +19,13 @@ public class UpdateEmployee {
 
         Employee emp = (Employee) session.get(Employee.class, 102);
 
-        Employee employee = new Employee(102, "Omkar", "omkar@gmail.com", 1234);
+       // Employee employee = new Employee(102, "Omkar", "omkar@gmail.com", 1234);
+        Employee employee1 = new Employee();
+        employee1.setId(103);
+        employee1.setEmail("something@gmail.com");
+        session.merge(employee1);
 
-        session.merge(employee);
+        //session.merge(employee);
         transaction.commit();
 
         session.close();

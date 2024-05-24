@@ -12,6 +12,10 @@
         <property name="hbm2ddl.auto">update</property>
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
-        <mapping class = "beans.Employee"></mapping>
+        <mapping class="beans.Employee"/>
+        <!--<mapping class="beans.Student"/>
+        <mapping class="beans.Laptop"/>-->
+        <mapping class="beans.oneToMany.Student"/>
+        <mapping class="beans.oneToMany.StudentAddress"/>
     </session-factory>
 </hibernate-configuration>

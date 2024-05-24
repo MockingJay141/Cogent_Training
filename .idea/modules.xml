@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Banking/Banking.iml" filepath="$PROJECT_DIR$/Banking/Banking.iml" />
       <module fileurl="file://$PROJECT_DIR$/HibernateExample/HibernateExample.iml" filepath="$PROJECT_DIR$/HibernateExample/HibernateExample.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/SpringJDBCTemplateExample/JdbcTemplate.iml" filepath="$USER_HOME$/Desktop/SpringJDBCTemplateExample/JdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReactiveExamples/ReactiveExamples.iml" filepath="$PROJECT_DIR$/ReactiveExamples/ReactiveExamples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring.iml" filepath="$PROJECT_DIR$/Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJDBCExample/SpringJDBCExample.iml" filepath="$PROJECT_DIR$/SpringJDBCExample/SpringJDBCExample.iml" />
