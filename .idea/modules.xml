@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AOP_Test/AOP_Test.iml" filepath="$PROJECT_DIR$/AOP_Test/AOP_Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Banking/Banking.iml" filepath="$PROJECT_DIR$/Banking/Banking.iml" />
       <module fileurl="file://$PROJECT_DIR$/HibernateExample/HibernateExample.iml" filepath="$PROJECT_DIR$/HibernateExample/HibernateExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReactiveExamples/ReactiveExamples.iml" filepath="$PROJECT_DIR$/ReactiveExamples/ReactiveExamples.iml" />

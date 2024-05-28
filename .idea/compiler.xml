@@ -8,12 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HibernateExample" />
+        <module name="AOP_Test" />
         <module name="SpringJDBCExample" />
-        <module name="ReactiveExamples" />
         <module name="Banking" />
+        <module name="ReactiveExamples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AOP" target="17" />
+      <module name="AOP (1)" target="17" />
+      <module name="AOP_Example" target="17" />
+      <module name="AOP_Test" target="17" />
       <module name="Banking" target="17" />
       <module name="BankingApplication" target="17" />
       <module name="HibernateExample" target="17" />
@@ -24,6 +29,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AOP" options="-parameters" />
+      <module name="AOP (1)" options="-parameters" />
+      <module name="AOP_Test" options="-parameters" />
       <module name="Banking" options="-parameters" />
       <module name="BankingApplication" options="-parameters" />
     </option>
