@@ -9,7 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/Spring.iml" filepath="$PROJECT_DIR$/Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJDBCExample/SpringJDBCExample.iml" filepath="$PROJECT_DIR$/SpringJDBCExample/SpringJDBCExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringLifeCycle.iml" filepath="$PROJECT_DIR$/SpringLifeCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" filepath="$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week_1.iml" filepath="$PROJECT_DIR$/Week_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot3-jwt-main/spring-boot3-jwt-main.iml" filepath="$PROJECT_DIR$/spring-boot3-jwt-main/spring-boot3-jwt-main.iml" />
     </modules>
   </component>
 </project>

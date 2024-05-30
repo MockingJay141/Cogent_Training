@@ -10,8 +10,9 @@
         <module name="HibernateExample" />
         <module name="AOP_Test" />
         <module name="SpringJDBCExample" />
-        <module name="Banking" />
+        <module name="SpringSecurity" />
         <module name="ReactiveExamples" />
+        <module name="Banking" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="JdbcTemplate" target="11" />
       <module name="ReactiveExamples" target="17" />
       <module name="SpringJDBCExample" target="11" />
+      <module name="SpringSecurity" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,6 +36,7 @@
       <module name="AOP_Test" options="-parameters" />
       <module name="Banking" options="-parameters" />
       <module name="BankingApplication" options="-parameters" />
+      <module name="SpringSecurity" options="-parameters" />
     </option>
   </component>
 </project>

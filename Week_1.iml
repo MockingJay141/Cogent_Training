@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/BankingApplication/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/AOP/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AOP_Example/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spring-boot3-jwt-main/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spring-boot3-jwt-main/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

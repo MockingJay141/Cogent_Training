@@ -1,7 +1,5 @@
 package com.exceptionHandling;
 
-import java.sql.SQLOutput;
-
 /**
  * Exception is an Unwanted/ unexpected event that either occurs in Runtime or Compile Time
  *
