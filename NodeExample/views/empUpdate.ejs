@@ -1,0 +1,32 @@
+<h1>Update Employee View</h1>
+<form action="/employees/update" method="post">
+<table border="1">
+    <tr>
+        <td>ID</td>
+        <td><input type="number" name='id' value='<%=emp.id %>'></td>
+        <td><button>Update</button></td>
+    </tr>
+    <tr>
+            <td>Ename</td>
+            <td><input type="text" name='ename'
+                value='<%=emp.ename %>'
+                ></td>
+            <td> <input type="reset" value="Clear"> </td>
+    </tr>
+    <tr>
+            <td>Job</td>
+            <td><input type="text" name='job'
+                value='<%=emp.job %>'></td>
+            <td>  </td>
+    </tr>
+    <tr>
+            <td>Salary</td>
+            <td><input type="number" name='salary'
+                value='<%=emp.salary %>'></td>
+            <td></td>
+    </tr>
+</table>
+</form>
+Goto:
+<a href="/employees/list">Employee Index</a> |
+<a href="/">Home Index</a>

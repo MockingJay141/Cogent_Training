@@ -1,0 +1,24 @@
+<h1>List of Employees for CRUD Operations</h1>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Ename</th>
+        <th>Job</th>
+        <th>Salary</th>
+        <th>Operations</th>
+    </tr>
+    <% for ( let e of employees ){ %>
+    <tr>
+        <td> <%= e.id %> </td>   
+        <td> <%= e.ename %> </td>   
+        <td> <%= e.job %> </td>   
+        <td> <%= e.salary %> </td>   
+        <td><a href="/employees/details/<%= e.id %>">Select</a> |
+            <a href="/employees/delete/<%= e.id %>">Delete</a> |
+            <a href="/employees/update/<%= e.id %>">Update</a>  </td>
+    </tr>
+    <%}%>
+</table>
+<a href="/employees/create">Add Employee</a>
+<hr>
+<a href="/">Back to home</a>

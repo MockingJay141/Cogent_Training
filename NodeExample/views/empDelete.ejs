@@ -1,0 +1,14 @@
+<h2>Selected employee to delete</h2>
+ID: <%= emp.id %> <br>
+Ename: <%= emp.ename %> <br>
+Job: <%= emp.job %> <br>
+Salary: <%= emp.salary %> <br>
+<form action="/employees/delete" method="delete">
+    Id: <input type="number" name='id' value=<%= emp.id %>> <br>
+    <button>Delete</button>
+</form>
+ 
+<br><br><hr>
+Goto:
+    <a href="/employees/list">Employee List</a> |
+    <a href="/">Project Index page</a> |

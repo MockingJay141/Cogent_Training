@@ -1,0 +1,8 @@
+get http://localhost:9000
+
+####
+get http://localhost:9000/date
+###
+get http://localhost:9000/time
+####
+post http://localhost:9000/
